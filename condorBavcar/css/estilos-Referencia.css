@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+a {
+    text-decoration: none;
+}    
+/*primera seccion del header, 6 cuotas sin interes*/
+
+.cuotasSinInteres span {  
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+/*navbar*/
+.contenedorGeneralNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedorGeneralNavbar ul {
+    list-style: none; 
+}
+.menuDesplegableNavbar {
+    display: none;
+}
+
+.contenedorGeneralNavbar a {
+    color: #000000;
+    font-weight: 350;
+}
+.imagenCondorLogoEnNav {
+    width: 22%;
+}
+.imagenCondorLogoEnNav img {
+    width: 100%;
+}
+.contenedorflexlist {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedorPrimarioNavbar {
+    width: 20%;
+}
+.contenedorPrimarioNavbar li {
+    width: 10%;
+}
+.sectorMisCompras {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.linkComprasTexto {
+    width: 60%;
+}
+.linkComprasImagen {
+    width: 12%;
+}
+.linkComprasImagen img {
+    width: 80%;
+    margin: 5%;
+}
+/*carrusel*/
+.carrusel img {
+width: 100%;
+}
+/*banner de producto destacado solo en index posterior al carrusel*/
+.bannerProductoDescatado {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.productoImagenDestacada {
+    width: 55%;
+}
+.productoImagenDestacada img{
+    width: 100%;
+}
+.productotextodestacado {
+    height: 30vh;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*imagen banner presentacion de pages*/
+.imagenBannerPresentacionPages img {
+    width: 100%;
+}
+/*Contenedor general de las cards de productos*/
+.contenedorGeneralProductos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    
+}
+.titulocentrado {
+    text-align: center;
+}
+/*Contenedor primario = contenedor basico de las cards de productos */    
+.contenedorPrimarioProductos {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorPrimarioProductos img {
+    width: 27vw;    
+}
+.contenedorPrimarioProductos a { 
+color: #000000;
+}    
+.contenedorPrimarioProductos button{
+    background-color: transparent;
+    border: 0px;
+}
+/*contenedor Dos Imagenes Secciones en Index*/
+.tamañoimagensecciones {
+    width: 40vw;
+}
+.contenedorDosImagenesSecciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 8vh;
+}
+/*contenedor de 3 columnas previo al footer*/
+.imagenFondoPrevioFooter {
+    width: 100vw;
+}
+.contenedorMacroDeImagenPreviaAlFooter {
+    position: relative;
+    margin-bottom: 8vh;
+    margin-top: 8vh;
+}
+.ContenedorColumnasPrevioFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 37%;
+    width: 100vw;
+}
+.tamañoLogosPrevioFooter {
+    width: 5vw;
+}
+.contenedorPrimarioPrevioFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*footer*/
+.contenedorGeneralFooter{
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 220px; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorGeneralFooter a {
+    color: #FFFFFF;
+}
+.contenedorGeneralFooter ul {
+    list-style: none;
+}
+.contenedorPrimarioFooter { 
+    width: 25%; 
+    margin: 40px;
+    height: 150px;
+} 
+.contenedorPrimarioFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+/*PAGES NOSOTROS*/
+.borcegosNosotrosTamaño {
+    width: 35vw;
+}
+.posicionBorcegosNosotros {
+    position: relative;
+    top: 12vh;
+}
+.contenedorGeneralNosotros {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.presentacionNosotros {
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.botonEnNosotros {
+    text-decoration: none;
+    background-color:#000000;
+    border: 0;
+    padding: 1vw;
+}
+.botonEnNosotros a {
+    color:#FFFFFF;    
+}
+/*PAGES CONTACTO*/
+.contenedorFormularioGeneral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainContenedorContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.botonEnContacto {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 0;
+    padding: 1vw;
+}
+
